@@ -17,6 +17,8 @@ export const baseData: ISTKData = {
     polylines: baseDataPolylines,
     images: baseDataImages,
     workspace: {
-        visibilityOffset: 1
+        initialViewBoxScale: 0.7,
+        initialViewBoxScaleForWidth: window.screen.width
+        // visibilityOffset: 1
     }
 }
